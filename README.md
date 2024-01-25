@@ -33,8 +33,13 @@ NFT ABC123DEF4 transferred from Waqas Ahmed to Elias Iosif
 NFTs owned by Waqas Ahmed: []
 NFTs owned by Elias Iosif: [{ABC123DEF4 Elias Iosif}]
 
-$ ./bin/step04-lending 
-NFT ABC123DEF4 lent to Elias Iosif until 2024-01-26T15:21:31+05:00
-NFTs owned by Waqas Ahmed: []
-NFTs owned by Elias Iosif: [{ABC123DEF4 Elias Iosif 2024-01-26 15:21:31.884346 +0500 PKT m=+86400.000139251 true Waqas Ahmed}]
+$ ./bin/step04-lending               
+NFT ABC123DEF4 lent to Elias Iosif until 2024-01-25T15:56:53+05:00
+NFTs owned by Waqas Ahmed: [{ABC123DEF4 Waqas Ahmed Elias Iosif 2024-01-25 15:56:53.102992 +0500 PKT m=+60.000136459 true}]
+NFTs owned by Elias Iosif: []
+Simulating 1 minute 1 second time passing
+NFT ABC123DEF4 automatically returned to Waqas Ahmed
+Now the time is: 2024-01-25T15:56:54+05:00
+NFTs owned by Waqas Ahmed: [{ABC123DEF4 Waqas Ahmed Waqas Ahmed 0001-01-01 00:00:00 +0000 UTC false}]
+NFTs owned by Elias Iosif: []
 ```

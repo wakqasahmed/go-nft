@@ -45,7 +45,7 @@ func main() {
 
 func transferNFT(registry NFTRegistry, nftID string, newHolder string) {
 	if nft, exists := registry[nftID]; exists {
-		var oldHolder = nft.Holder
+		oldHolder := nft.Holder
 		nft.Holder = newHolder
 		registry[nftID] = nft
 		fmt.Printf("NFT %s transferred from %s to %s\n", nftID, oldHolder, nft.Holder)
